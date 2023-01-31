@@ -10,10 +10,10 @@
 ############################
 
 # Name of website
-title: My Website
+title: A. Trevor Thrall, Ph.D.
 
 # Your name to show in the footer
-author: Some Person
+author: A. Trevor Thrall, Ph.D.
 
 ###############################################
 # --- List of links in the navigation bar --- #
@@ -21,10 +21,6 @@ author: Some Person
 
 navbar-links:
   About Me: "aboutme"
-  Resources:
-    - Beautiful Jekyll: "https://beautifuljekyll.com"
-    - Learn markdown: "https://www.markdowntutorial.com/"
-  Author's home: "https://deanattali.com"
 
 ################
 # --- Logo --- #
@@ -50,15 +46,12 @@ round-avatar: true
 # Uncomment the links you want to show and add your information to each one.
 social-network-links:
   email: "someone@example.com"
-  rss: true  # remove this line if you don't want to show an RSS link at the bottom
-  facebook: deanattali
-  github: daattali
-  twitter: daattali
-  patreon: DeanAttali
-  youtube: c/daattali
+  twitter: trevor_thrall
+ # patreon: DeanAttali
+#  youtube: c/daattali
 #  medium: yourname
 #  reddit: yourname
-#  linkedin: daattali
+  linkedin: https://www.linkedin.com/in/trevorthrall/
 #  xing: yourname
 #  stackoverflow: "3943160/daattali"
 #  snapchat: deanat78
@@ -72,14 +65,14 @@ social-network-links:
 #  calendly: yourname
 #  mastodon: instance.url/@username
 #  ORCID: your ORCID ID
-#  google-scholar: your google scholar
+google-scholar: https://scholar.google.com/citations?user=_Lv8iBMAAAAJ&hl=en
 #  discord: invite/invite_code or users/userid 
 #  kaggle: yourname
 #  hackerrank: yourname
 
 # If you want your website to generate an RSS feed, provide a description
 # The URL for the feed will be https://<your_website>/feed.xml
-rss-description: This website is a virtual proof that I'm awesome
+# rss-description: This website is a virtual proof that I'm awesome
 
 ###########################
 # --- General options --- #
@@ -88,7 +81,7 @@ rss-description: This website is a virtual proof that I'm awesome
 # Select which social network share links to show in posts
 share-links-active:
   twitter: true
-  facebook: true
+  facebook: false
   linkedin: true
   vk: false
 
